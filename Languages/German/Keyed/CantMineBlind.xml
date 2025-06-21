@@ -5,4 +5,5 @@
 	<CMB_EnableAutoThinRoof_Setting>Auto-designate known thin roofs (light green) for removal?</CMB_EnableAutoThinRoof_Setting>
 	<CMB_EnableAutoThinRoofTooltip_Setting>When checked, selecting the Mine tool will automatically mark known thin roofs for deconstruction.</CMB_EnableAutoThinRoofTooltip_Setting>
 	<CMB_EnableAutoThinRoofWarning_Setting>DANGER: Roofs can still be dropped on colonists heads if clearing unknown roof areas!!</CMB_EnableAutoThinRoofWarning_Setting>
+	<CMB_DRMAutoThinRoofWarning_Setting>De-roof Mining is enabled, thin roof is disabled in this mod.</CMB_DRMAutoThinRoofWarning_Setting>
 </LanguageData>

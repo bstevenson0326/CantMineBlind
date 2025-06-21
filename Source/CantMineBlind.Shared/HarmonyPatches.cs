@@ -113,6 +113,13 @@ namespace CantMineBlind
         {
             internal static void Postfix(Designator __instance, IEnumerable<IntVec3> cells)
             {
+                // Skip when De-roof mining is active
+                if (ModLister.GetActiveModWithIdentifier("Darkelvar.DeroofMining") != null)
+                {
+                    return;
+                }
+
+                // Skip if auto-designate thin roof is not enabled
                 if (!CantMineBlindMod.Settings.autoDesignateThinRoof)
                 {
                     return;

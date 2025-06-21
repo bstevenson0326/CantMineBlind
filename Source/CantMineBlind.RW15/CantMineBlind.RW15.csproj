@@ -20,8 +20,6 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="..\CantMineBlind.Shared\*.cs" />
-		<Compile Remove="..\CantMineBlind.Shared\MapComponentCantMindBlind.cs" />
-		<Compile Remove="..\CantMineBlind.Shared\ThinRoofDesignationQueue.cs" />
 		<Reference Include="Assembly-CSharp">
 			<HintPath>$(RimWorld15Path)/Assembly-CSharp.dll</HintPath>
 			<Private>false</Private>

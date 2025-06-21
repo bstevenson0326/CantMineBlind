@@ -51,19 +51,29 @@ namespace CantMineBlind
                 tooltip: "CMB_EnableRoofOverlayTooltip_Setting".Translate()
             );
 
-            listing.CheckboxLabeled(
-                "CMB_EnableAutoThinRoof_Setting".Translate(),
-                ref Settings.autoDesignateThinRoof,
-                tooltip: "CMB_EnableAutoThinRoofTooltip_Setting".Translate()
-            );
-
-            // Display a warning if the auto-designate thin roof setting is enabled
-            if (Settings.autoDesignateThinRoof)
+            if (ModLister.GetActiveModWithIdentifier("Darkelvar.DeroofMining") != null)
             {
                 Color oldColor = GUI.color;
-                GUI.color = Color.red;
-                listing.Label("CMB_EnableAutoThinRoofWarning_Setting".Translate());
+                GUI.color = Color.yellow;
+                listing.Label("CMB_DRMAutoThinRoofWarning_Setting".Translate());
                 GUI.color = oldColor;
+            }
+            else
+            {
+                // Display a warning if the auto-designate thin roof setting is enabled
+                if (Settings.autoDesignateThinRoof)
+                {
+                    listing.CheckboxLabeled(
+                        "CMB_EnableAutoThinRoof_Setting".Translate(),
+                        ref Settings.autoDesignateThinRoof,
+                        tooltip: "CMB_EnableAutoThinRoofTooltip_Setting".Translate()
+                    );
+
+                    Color oldColor = GUI.color;
+                    GUI.color = Color.red;
+                    listing.Label("CMB_EnableAutoThinRoofWarning_Setting".Translate());
+                    GUI.color = oldColor;
+                }
             }
 
             listing.End();
