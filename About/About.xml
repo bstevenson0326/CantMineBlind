@@ -12,6 +12,7 @@ Features:
 • Optionally auto-designates thin (light green) roofs for removal when mining.
   ⚠️ DANGER: Roofs can still be dropped on colonists' heads if clearing unknown roof areas! This option is for convenience, not safety.
 • Settings configurable in the mod options menu.
+• Compatible with De-roof Mining mod, that mod will take over for roofing when both Can't Mine Blind and De-roof Mining are enabled.
 
 Requires Harmony.
   </description>

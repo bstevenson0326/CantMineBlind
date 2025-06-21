@@ -70,7 +70,8 @@ Once the mod is published:
 ## 🧪 Compatibility
 
 - Compatible with RimWorld 1.5 and 1.6  
-- Works with most other mods  
+- Works with most other mods
+- When De-roof mining mod is installed, it will handle roofing  
 - No known conflicts
 
 ---
