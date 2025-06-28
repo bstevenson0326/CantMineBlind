@@ -6,7 +6,7 @@
 		<DefineConstants>RW_1_5</DefineConstants>
 		<OutputPath>..\..\1.5\Assemblies\</OutputPath>
 		<AssemblyName>CantMineBlind</AssemblyName>
-		<DebugType>none</DebugType>
+    <DebugType>none</DebugType>
 		<GenerateDocumentationFile>false</GenerateDocumentationFile>
 		<Optimize>true</Optimize>
 		<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>

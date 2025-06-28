@@ -1,8 +1,8 @@
 <ModMetaData>
-  <name>Can't Mine Blind</name>
+  <name>Can't Mine (or Work) Blind</name>
   <author>hawqeye19</author>
   <packageId>hawqeye19.CantMineBlind</packageId>
-  <modVersion>1.0.0</modVersion>
+  <modVersion>1.0.1</modVersion>
   <url>https://github.com/bstevenson0326/CantMineBlind</url>
   <description>
 Automatically shows the roof overlay when selecting the mine designator, and optionally designates thin roofs for removal.
@@ -13,6 +13,11 @@ Features:
   ⚠️ DANGER: Roofs can still be dropped on colonists' heads if clearing unknown roof areas! This option is for convenience, not safety.
 • Settings configurable in the mod options menu.
 • Compatible with De-roof Mining mod, that mod will take over for roofing when both Can't Mine Blind and De-roof Mining are enabled.
+
+NEW!
+• Fertility overlay turns on when creating or expanding a grow zone.
+• Terrain affordance overlay turns on when planning or constructing.
+  • Configurable in mod settings for planning, structures and when placing furniture.
 
 Requires Harmony.
   </description>

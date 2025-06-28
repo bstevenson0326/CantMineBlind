@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	<!-- Roofing overlay -->
 	<CMB_EnableRoofOverlay_Setting>Enable automatic roof overlay when using the Mine tool?</CMB_EnableRoofOverlay_Setting>
 	<CMB_EnableRoofOverlayTooltip_Setting>When checked, the roof overlay will automatically show when the mining designator is selected.  Uncheck this for known mining, like mountain bases may be one example.</CMB_EnableRoofOverlayTooltip_Setting>
 	<CMB_EnableAutoThinRoof_Setting>Auto-designate known thin roofs (light green) for removal?</CMB_EnableAutoThinRoof_Setting>
 	<CMB_EnableAutoThinRoofTooltip_Setting>When checked, selecting the Mine tool will automatically mark known thin roofs for deconstruction.</CMB_EnableAutoThinRoofTooltip_Setting>
 	<CMB_EnableAutoThinRoofWarning_Setting>DANGER: Roofs can still be dropped on colonists heads if clearing unknown roof areas!!</CMB_EnableAutoThinRoofWarning_Setting>
 	<CMB_DRMAutoThinRoofWarning_Setting>De-roof Mining is enabled, thin roof is disabled in this mod.</CMB_DRMAutoThinRoofWarning_Setting>
+	<!-- Fertility overlay -->
+	<CMB_EnableFertilityOverlay_Setting>Enable automatic fertility overlay when using growing zones?</CMB_EnableFertilityOverlay_Setting>
+	<CMB_EnableFertilityOverlayTooltip_Setting>When checked, the fertility overlay will automatically show when growing zones is selected.  Uncheck this for known growing.</CMB_EnableFertilityOverlayTooltip_Setting>
+	<!-- Terrain affordance overlay -->
+	<CMB_EnableTerrainAffordanceOverlay_Setting>Enable auto terrain-affordance overlay</CMB_EnableTerrainAffordanceOverlay_Setting>
+	<CMB_EnableTerrainAffordanceOverlayTooltip_Setting>When enabled, selecting planning/build designators will toggle the terrain affordance overlay.</CMB_EnableTerrainAffordanceOverlayTooltip_Setting>
+	<!-- Terrain affordance overlay sub-options -->
+	<CMB_EnablePlanningTerrainOverlay_Setting>	• For the Planning Tool?</CMB_EnablePlanningTerrainOverlay_Setting>
+	<CMB_EnablePlanningTerrainOverlayTooltip_Setting>Show terrain affordability when selecting the Planning tool.</CMB_EnablePlanningTerrainOverlayTooltip_Setting>
+	<CMB_EnableBuildingTerrainOverlay_Setting>	• For Building (Structures, Floors, Furniture, etc...)?</CMB_EnableBuildingTerrainOverlay_Setting>
+	<CMB_EnableBuildingTerrainOverlayTooltip_Setting>Show terrain affordability when selecting to build something.</CMB_EnableBuildingTerrainOverlayTooltip_Setting>
+	<CMB_SelectTerrainCategories>		Select Categories...</CMB_SelectTerrainCategories>
+	<CMB_TerrainCatWalls>		• Show overlay for Walls</CMB_TerrainCatWalls>
+	<CMB_TerrainCatWallsTooltip>Overlay is shown for Walls, Doors, and Fences.</CMB_TerrainCatWallsTooltip>
+	<CMB_TerrainCatFloors>		• Show overlay for Floors</CMB_TerrainCatFloors>
+	<CMB_TerrainCatFloorsTooltip>Overlay is shown for Floors and Bridges.</CMB_TerrainCatFloorsTooltip>
+	<CMB_TerrainCatFurniture>		• Show overlay for Furniture</CMB_TerrainCatFurniture>
+	<CMB_TerrainCatFurnitureTooltip>Overlay is shown for everything that is not a Wall, Door, or Fence.</CMB_TerrainCatFurnitureTooltip>
 </LanguageData>

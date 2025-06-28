@@ -1,8 +1,8 @@
-﻿# Can't Mine Blind
+﻿# Can't Mine (or Work) Blind
 
 **Author**: hawqeye19  
 **Package ID**: `hawqeye19.CantMineBlind`  
-**Version**: 1.0.0
+**Version**: 1.0.1
 
 ---
 
@@ -22,6 +22,11 @@ This mod improves the mining experience by automatically displaying the roof ove
 
 > ⚠️ **Warning**: Thin roof removal does **not** guarantee safety — unknown roofs can still fall on colonists!
 
+NEW!
+- Fertility overlay when planning or expanding growing zones
+- Terrain affordance overlay when planning and constructing
+  - Configurable in mod settings for planning, structures and when placing furniture. 
+
 ---
 
 ## 📦 Installation
@@ -30,34 +35,15 @@ You can install this mod either through the **Steam Workshop** or manually via *
 
 ---
 
-### 🟢 Steam Workshop (Recommended)
+### 🟢 Steam Workshop
 
 Once the mod is published:
 
-1. Subscribe to **Can't Mine Blind** on the [Steam Workshop](https://steamcommunity.com/app/294100/workshop/).
+1. Subscribe to **Can't Mine (or Work) Blind** on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3504553732).
 2. Steam will automatically download and install the mod.
-3. Launch RimWorld and enable **Can't Mine Blind** in the Mods menu.
+3. Launch RimWorld and enable **Can't Mine (or Work) Blind** in the Mods menu.
 
 ✅ Steam will handle updates automatically.
-
----
-
-### 📁 Manual Installation (GitHub)
-
-1. Go to the [Releases page](https://github.com/bstevenson0326/CantMineBlind/releases).
-2. Download the file named `CantMineBlind.zip` under the latest release.
-3. Extract the ZIP file.
-4. Move the extracted `CantMineBlind` folder to your RimWorld `Mods/` directory:
-   - **Windows**:  
-     `C:\Program Files (x86)\Steam\steamapps\common\Rimworld\Mods\`
-   - **Mac**:  
-     `~/Library/Application Support/Steam/steamapps/common/Rimworld/Mods/`
-   - **Linux**:  
-     `~/.steam/steam/steamapps/common/Rimworld/Mods/`
-
-5. Launch RimWorld and enable **Can't Mine Blind** in the Mods menu.
-
-🛠 Note: Manual installation does **not** auto-update. To get updates, repeat these steps using the latest release ZIP.
 
 ---
 
